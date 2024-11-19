@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl:PL">
+    <head>
+        <title>zamówienia</title>
+        <link rel="stylesheet" href="zamow.css">
+    </head>
+    <body>
+        <header>
+            <p><h1>zamów</h1></p>
+        </header>
+        <nav align="center">
+            <p><h1><u>Uzupełnij formularz</u></h1></p>
+            <form action methood="post">
+                <label for name="pizza">Jaka pizza i jak wielkość</label>
+                <br>
+                <input type="text" name="pizza" placeholder="freedy duża" required>
+                <br>
+                <label for name="tel">Twój numer telefonu</label>
+                <br>
+                <input type="tel" name="tel" required>
+                <select required>
+                    <option value="1">+52 Ukraina</option>
+                    <option value="2">+48 Polska</option>
+                    <br>
+                    
+                </select>
+                <br>
+                <label for name="adres">Podaj swój adres</label>
+                    <br>
+                    <input type="text" name="adres" required>
+                    <br>
+                    <input type="reset" value="resetuj" class="button">
+                    <input type="button" value="resetuj" class="button">
+            </form>
+        </nav>
+    </body>
+</html>
