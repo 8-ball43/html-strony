@@ -1,0 +1,45 @@
+header{
+    background-color: red;
+    height:100px;
+    text-align: center;
+    color:orange;
+    font-family: Arial;
+}
+nav{
+    background-color: orange;
+    font-family: Arial;
+}
+img{
+    height: 350px;
+}
+.blokl{
+    float:left;
+    background-color: red;
+    width: 50%;
+    height: 500px;
+  
+}
+.blokp{
+    background-color: darkred;
+   float:right;
+    height:500px;
+    text-align: right;
+    width: 50%;
+    
+    
+}
+main{
+    font-family: Arial;
+}
+.blokd{
+    background-color: orange;
+    
+    font-family: Arial;
+}
+footer{
+    color: yellow;
+    font-family: Arial;
+    background-color: black;
+    height: 250px;
+    
+}
